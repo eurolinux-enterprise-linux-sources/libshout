@@ -1,6 +1,6 @@
 Name:           libshout
 Version:        2.2.2
-Release:        11%{?dist}
+Release:        9%{?dist}
 Summary:        Icecast source streaming library
 
 Group:          System Environment/Libraries
@@ -80,12 +80,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/aclocal/shout.m4
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.2.2-11
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2.2-10
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.2.2-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
